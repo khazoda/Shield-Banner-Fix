@@ -1,0 +1,36 @@
+modLoader = "javafml"
+license = "ARR"
+issueTrackerURL = "https://github.com/Darkhax-Minecraft/Shield-Banner-Fix/issues"
+
+[[mods]]
+modId = "shieldbannerfix"
+version = "26.1.2.0"
+displayName = "ShieldBannerFix"
+updateJSONURL = "https://updates.blamejared.com/get?n=shieldbannerfix&gv=26.1.2&ml=neoforge"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/shield-banner-fix"
+logoFile = "logo_shieldbannerfix.png"
+logoBlur = false
+credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Keyana , Darkosto, Tobias Ward, noobanidus"
+authors = "Darkhax"
+description = "Fixes shields with banners not rendering designs accurately."
+
+[[mixins]]
+config = "shieldbannerfix.common.mixins.json"
+
+[[mixins]]
+config = "shieldbannerfix.neoforge.mixins.json"
+
+[[dependencies.shieldbannerfix]]
+modId = "minecraft"
+type = "required"
+versionRange = "26.1"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.shieldbannerfix]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1.0.1-beta,)"
+ordering = "NONE"
+side = "BOTH"
+

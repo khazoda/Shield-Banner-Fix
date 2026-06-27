@@ -1,0 +1,23 @@
+{
+  "mod": {
+    "name": "ShieldBannerFix",
+    "group": "net.darkhax.shieldbannerfix",
+    "authors": [
+      "Darkhax"
+    ],
+    "id": "shieldbannerfix",
+    "license": "ARR",
+    "description": "Fixes shields with banners not rendering designs accurately.",
+    "repo": "https://github.com/Darkhax-Minecraft/Shield-Banner-Fix",
+    "client": false
+  },
+  "dependencies": [],
+  "curseforge": {
+    "slug": "shield-banner-fix",
+    "id": "967792"
+  },
+  "modrinth": {
+    "slug": "shield-banner-fix",
+    "id": "XTAy8Fqs"
+  }
+}
